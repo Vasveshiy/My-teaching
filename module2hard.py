@@ -24,8 +24,6 @@ for i in range(1, number + 1):
                     list.append(pair)
 
 # Преобразование списка кортежей в строку и удаление скобок
-#list_str = (str(list).replace('(', '').replace(')', '').replace('[', '').replace(']', '').replace(' ', ''))
+list_str = (str(list).replace('(', '').replace(')', '').replace('[', '').replace(']', '').replace(' ', ''))
 
-#list_str = str(list).replace('(', '').replace(')', '').replace('[', '').replace(']', '').replace(' ', '')
-list_str = str(list).remove('(')
 print('Ваш шифр:', list_str)
